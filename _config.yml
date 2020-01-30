@@ -1,16 +1,44 @@
+# Site settings
 title: Philosofriends
-author:
-  name: Sarah Bruckler
-  email: sarahkb4@illinois.edu
+author: Sarah Bruckler
+email: sarahkb4@illinois.edu
 description: >- # this means to ignore newlines until "baseurl:"
   A collection of resources and course materials for students in my courses.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.philosofriends.com" # the base hostname & protocol for your site, e.g. http://example.com 
 
 # Build settings
-theme: jekyll-theme-cayman
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Build settings
 plugins:
   - jekyll-feed
+  - jekyll-email-protect
+
+# Custom variables
+license: >- #
+  <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Philosofriends.com</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
+course_license: >- #
+  <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">All Course Materials</span> herein are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
 
 exclude:
   - .sass-cache/
@@ -29,3 +57,15 @@ exclude:
 # Socials
 twitter_username: 
 github_username:
+
+# Nav menu
+navigation:
+
+  - title: Home
+    url: /
+
+  - title: About
+    url: /about/
+
+  - title: Slides
+    url: /slides/
