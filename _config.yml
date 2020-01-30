@@ -30,10 +30,7 @@ plugins:
   - jekyll-email-protect
 
 # Custom variables
-license: >- #
-  <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Philosofriends.com</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
-course_license: >- #
-  <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">All Course Materials</span> herein are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
+powered_by: Powered by <a href="https://jekyllrb.com/" alt="Jekyll">Jekyll</a> and <a href="https://github.com/KingFelix/emerald" alt="Emerald Theme for Jekyll">Emerald Theme for Jekyll</a>
 
 # Options
 custom_header: false
@@ -67,5 +64,8 @@ navigation:
   - title: About
     url: /about/
 
-  - title: Slides
-    url: /slides/
+  - title: Course Materials
+    url: /course-materials/
+
+  - title: License
+    url: /license/

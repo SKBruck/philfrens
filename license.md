@@ -1,21 +1,20 @@
-## Released under MIT License
+---
+layout: page
+title: License
+---
 
-Copyright (c) 2015 Jacopo Rabolini
+## Site License
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+With the exception of course materials, this website is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). Academic integrity requires that credit is given where it is due. Please credit the contributor who created the content you wish to copy, adapt, or share.
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+## Course Materials License
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+All course materials posted on this site are licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+### STUDENTS! This means:
+
+You may download or share the course materials I post to this site, but cannot claim them as your own. I will not list or post course materials that are not created and owned by me ([Sarah Bruckler](mailto:sarahkb4@illinois.edu)). This means that if you need access to course materials other than my slides, you need to contact me or, if I am your TA, the instructor of record for your class.
+
+To better understand this license, make sure to visit the [Creative Commons website](http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+To better understand the academic integrity policies of your institution, please refer to your institution's Student Code of Conduct.
