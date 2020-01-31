@@ -8,4 +8,5 @@ permalink: /course-materials/
 
 <br />
 
+* [Friday, January 31](/slides/2020-01-31-week-2#/)
 * [Friday, January 24](/slides/2020-01-24-class-intro#/)
