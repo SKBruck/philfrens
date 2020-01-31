@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Course Materials
+permalink: /course-materials/
 ---
 
 ## PHIL 100 AD1 & AD7 Slides
