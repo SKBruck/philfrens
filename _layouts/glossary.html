@@ -1,0 +1,735 @@
+---
+layout: default
+---
+
+<div style="text-align: center;">
+  <a href="#a">A</a> - <a href="#b">B</a> - <a href="#c">C</a> - <a href="#d">D</a> - <a href="#e">E</a> - <a href="#f">F</a> - <a href="#g">G</a> - <a href="#h">H</a> - <a href="#i">I</a> - <a href="#"j>J</a> - <a href="#k">K</a> - <a href="#l">L</a> - <a href="#m">M</a> - <a href="#n">N</a> - <a href="#o">O</a> - <a href="#p">P</a> - <a href="#q">Q</a> - <a href="#r">R</a> - <a href="#s">S</a> - <a href="#t">T</a> - <a href="#u">U</a> - <a href="#v">V</a> - <a href="#w">W</a> - <a href="#x">X</a> - <a href="#y">Y</a> - <a href="#z">Z</a>
+</div>
+
+<a id="a"><h2>A</h2></a>
+
+{% for aterm in site.data.aterms %}
+<div class="post">
+  <h4>{{ aterm.term }}</h4>
+  {% if aterm.language %}
+    <p class="by-line"><em>{{ aterm.language }}: {{ aterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ aterm.definition }}</p>
+  {% if aterm.example %}
+    <p><strong>Example:</strong> {{ aterm.example }}</p>
+  {% endif %}
+  {% if aterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if aterm.resources.mwdef %}
+      - <a href="{{ aterm.mwdef }}">{{ aterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if aterm.resources.sepdef %}
+      - <a href="{{ aterm.sepdef }}">{{ aterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if aterm.resources.iepdef %}
+      - <a href="{{ aterm.iepdef }}">{{ aterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="b"><h2>B</h2></a>
+
+{% for bterm in site.data.bterms %}
+<div class="post">
+  <h4>{{ bterm.term }}</h4>
+  {% if bterm.language %}
+    <p class="by-line"><em>{{ bterm.language }}: {{ bterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ bterm.definition }}</p>
+  {% if bterm.example %}
+    <p><strong>Example:</strong> {{ bterm.example }}</p>
+  {% endif %}
+  {% if bterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if bterm.resources.mwdef %}
+      - <a href="{{ bterm.mwdef }}">{{ bterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if bterm.resources.sepdef %}
+      - <a href="{{ bterm.sepdef }}">{{ bterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if bterm.resources.iepdef %}
+      - <a href="{{ bterm.iepdef }}">{{ bterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="c"><h2>C</h2></a>
+
+{% for cterm in site.data.cterms %}
+<div class="post">
+  <h4>{{ cterm.term }}</h4>
+  {% if cterm.language %}
+    <p class="by-line"><em>{{ cterm.language }}: {{ cterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ cterm.definition }}</p>
+  {% if cterm.example %}
+    <p><strong>Example:</strong> {{ cterm.example }}</p>
+  {% endif %}
+  {% if cterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if cterm.resources.mwdef %}
+      - <a href="{{ cterm.mwdef }}">{{ cterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if cterm.resources.sepdef %}
+      - <a href="{{ cterm.sepdef }}">{{ cterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if cterm.resources.iepdef %}
+      - <a href="{{ cterm.iepdef }}">{{ cterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="d"><h2>D</h2></a>
+
+{% for dterm in site.data.dterms %}
+<div class="post">
+  <h4>{{ dterm.term }}</h4>
+  {% if dterm.language %}
+    <p class="by-line"><em>{{ dterm.language }}: {{ dterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ dterm.definition }}</p>
+  {% if dterm.example %}
+    <p><strong>Example:</strong> {{ dterm.example }}</p>
+  {% endif %}
+  {% if dterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if dterm.resources.mwdef %}
+      - <a href="{{ dterm.mwdef }}">{{ dterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if dterm.resources.sepdef %}
+      - <a href="{{ dterm.sepdef }}">{{ dterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if dterm.resources.iepdef %}
+      - <a href="{{ dterm.iepdef }}">{{ dterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="e"><h2>E</h2></a>
+
+{% for eterm in site.data.eterms %}
+<div class="post">
+  <h4>{{ eterm.term }}</h4>
+  {% if eterm.language %}
+    <p class="by-line"><em>{{ eterm.language }}: {{ eterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ eterm.definition }}</p>
+  {% if eterm.example %}
+    <p><strong>Example:</strong> {{ eterm.example }}</p>
+  {% endif %}
+  {% if eterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if eterm.resources.mwdef %}
+      - <a href="{{ eterm.mwdef }}">{{ eterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if eterm.resources.sepdef %}
+      - <a href="{{ eterm.sepdef }}">{{ eterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if eterm.resources.iepdef %}
+      - <a href="{{ eterm.iepdef }}">{{ eterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="f"><h2>F</h2></a>
+
+{% for fterm in site.data.fterms %}
+<div class="post">
+  <h4>{{ fterm.term }}</h4>
+  {% if fterm.language %}
+    <p class="by-line"><em>{{ fterm.language }}: {{ fterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ fterm.definition }}</p>
+  {% if fterm.example %}
+    <p><strong>Example:</strong> {{ fterm.example }}</p>
+  {% endif %}
+  {% if fterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if fterm.resources.mwdef %}
+      - <a href="{{ fterm.mwdef }}">{{ fterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if fterm.resources.sepdef %}
+      - <a href="{{ fterm.sepdef }}">{{ fterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if fterm.resources.iepdef %}
+      - <a href="{{ fterm.iepdef }}">{{ fterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="g"><h2>G</h2></a>
+
+{% for gterm in site.data.gterms %}
+<div class="post">
+  <h4>{{ gterm.term }}</h4>
+  {% if gterm.language %}
+    <p class="by-line"><em>{{ gterm.language }}: {{ gterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ gterm.definition }}</p>
+  {% if gterm.example %}
+    <p><strong>Example:</strong> {{ gterm.example }}</p>
+  {% endif %}
+  {% if gterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if gterm.resources.mwdef %}
+      - <a href="{{ gterm.mwdef }}">{{ gterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if gterm.resources.sepdef %}
+      - <a href="{{ gterm.sepdef }}">{{ gterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if gterm.resources.iepdef %}
+      - <a href="{{ gterm.iepdef }}">{{ gterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="h"><h2>H</h2></a>
+
+{% for hterm in site.data.hterms %}
+<div class="post">
+  <h4>{{ hterm.term }}</h4>
+  {% if hterm.language %}
+    <p class="by-line"><em>{{ hterm.language }}: {{ hterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ hterm.definition }}</p>
+  {% if hterm.example %}
+    <p><strong>Example:</strong> {{ hterm.example }}</p>
+  {% endif %}
+  {% if hterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if hterm.resources.mwdef %}
+      - <a href="{{ hterm.mwdef }}">{{ hterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if hterm.resources.sepdef %}
+      - <a href="{{ hterm.sepdef }}">{{ hterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if hterm.resources.iepdef %}
+      - <a href="{{ hterm.iepdef }}">{{ hterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="i"><h2>I</h2></a>
+
+{% for iterm in site.data.iterms %}
+<div class="post">
+  <h4>{{ iterm.term }}</h4>
+  {% if iterm.language %}
+    <p class="by-line"><em>{{ iterm.language }}: {{ iterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ iterm.definition }}</p>
+  {% if iterm.example %}
+    <p><strong>Example:</strong> {{ iterm.example }}</p>
+  {% endif %}
+  {% if iterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if iterm.resources.mwdef %}
+      - <a href="{{ iterm.mwdef }}">{{ iterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if iterm.resources.sepdef %}
+      - <a href="{{ iterm.sepdef }}">{{ iterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if iterm.resources.iepdef %}
+      - <a href="{{ iterm.iepdef }}">{{ iterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="j"><h2>J</h2></a>
+
+{% for jterm in site.data.jterms %}
+<div class="post">
+  <h4>{{ jterm.term }}</h4>
+  {% if jterm.language %}
+    <p class="by-line"><em>{{ jterm.language }}: {{ jterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ jterm.definition }}</p>
+  {% if jterm.example %}
+    <p><strong>Example:</strong> {{ jterm.example }}</p>
+  {% endif %}
+  {% if jterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if jterm.resources.mwdef %}
+      - <a href="{{ jterm.mwdef }}">{{ jterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if jterm.resources.sepdef %}
+      - <a href="{{ jterm.sepdef }}">{{ jterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if jterm.resources.iepdef %}
+      - <a href="{{ jterm.iepdef }}">{{ jterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="k"><h2>K</h2></a>
+
+{% for kterm in site.data.kterms %}
+<div class="post">
+  <h4>{{ kterm.term }}</h4>
+  {% if kterm.language %}
+    <p class="by-line"><em>{{ kterm.language }}: {{ kterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ kterm.definition }}</p>
+  {% if kterm.example %}
+    <p><strong>Example:</strong> {{ kterm.example }}</p>
+  {% endif %}
+  {% if kterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if kterm.resources.mwdef %}
+      - <a href="{{ kterm.mwdef }}">{{ kterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if kterm.resources.sepdef %}
+      - <a href="{{ kterm.sepdef }}">{{ kterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if kterm.resources.iepdef %}
+      - <a href="{{ kterm.iepdef }}">{{ kterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="l"><h2>L</h2></a>
+
+{% for lterm in site.data.lterms %}
+<div class="post">
+  <h4>{{ lterm.term }}</h4>
+  {% if lterm.language %}
+    <p class="by-line"><em>{{ lterm.language }}: {{ lterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ lterm.definition }}</p>
+  {% if lterm.example %}
+    <p><strong>Example:</strong> {{ lterm.example }}</p>
+  {% endif %}
+  {% if lterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if lterm.resources.mwdef %}
+      - <a href="{{ lterm.mwdef }}">{{ lterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if lterm.resources.sepdef %}
+      - <a href="{{ lterm.sepdef }}">{{ lterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if lterm.resources.iepdef %}
+      - <a href="{{ lterm.iepdef }}">{{ lterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="m"><h2>M</h2></a>
+
+{% for mterm in site.data.mterms %}
+<div class="post">
+  <h4>{{ mterm.term }}</h4>
+  {% if mterm.language %}
+    <p class="by-line"><em>{{ mterm.language }}: {{ mterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ mterm.definition }}</p>
+  {% if mterm.example %}
+    <p><strong>Example:</strong> {{ mterm.example }}</p>
+  {% endif %}
+  {% if mterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if mterm.resources.mwdef %}
+      - <a href="{{ mterm.mwdef }}">{{ mterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if mterm.resources.sepdef %}
+      - <a href="{{ mterm.sepdef }}">{{ mterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if mterm.resources.iepdef %}
+      - <a href="{{ mterm.iepdef }}">{{ mterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="n"><h2>N</h2></a>
+
+{% for nterm in site.data.nterms %}
+<div class="post">
+  <h4>{{ nterm.term }}</h4>
+  {% if nterm.language %}
+    <p class="by-line"><em>{{ nterm.language }}: {{ nterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ nterm.definition }}</p>
+  {% if nterm.example %}
+    <p><strong>Example:</strong> {{ nterm.example }}</p>
+  {% endif %}
+  {% if nterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if nterm.resources.mwdef %}
+      - <a href="{{ nterm.mwdef }}">{{ nterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if nterm.resources.sepdef %}
+      - <a href="{{ nterm.sepdef }}">{{ nterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if nterm.resources.iepdef %}
+      - <a href="{{ nterm.iepdef }}">{{ nterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="o"><h2>O</h2></a>
+
+{% for oterm in site.data.oterms %}
+<div class="post">
+  <h4>{{ oterm.term }}</h4>
+  {% if oterm.language %}
+    <p class="by-line"><em>{{ oterm.language }}: {{ oterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ oterm.definition }}</p>
+  {% if oterm.example %}
+    <p><strong>Example:</strong> {{ oterm.example }}</p>
+  {% endif %}
+  {% if oterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if oterm.resources.mwdef %}
+      - <a href="{{ oterm.mwdef }}">{{ oterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if oterm.resources.sepdef %}
+      - <a href="{{ oterm.sepdef }}">{{ oterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if oterm.resources.iepdef %}
+      - <a href="{{ oterm.iepdef }}">{{ oterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="p"><h2>P</h2></a>
+
+{% for pterm in site.data.pterms %}
+<div class="post">
+  <h4>{{ pterm.term }}</h4>
+  {% if pterm.language %}
+    <p class="by-line"><em>{{ pterm.language }}: {{ pterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ pterm.definition }}</p>
+  {% if pterm.example %}
+    <p><strong>Example:</strong> {{ pterm.example }}</p>
+  {% endif %}
+  {% if pterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if pterm.resources.mwdef %}
+      - <a href="{{ pterm.mwdef }}">{{ pterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if pterm.resources.sepdef %}
+      - <a href="{{ pterm.sepdef }}">{{ pterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if pterm.resources.iepdef %}
+      - <a href="{{ pterm.iepdef }}">{{ pterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="q"><h2>Q</h2></a>
+
+{% for qterm in site.data.qterms %}
+<div class="post">
+  <h4>{{ qterm.term }}</h4>
+  {% if qterm.language %}
+    <p class="by-line"><em>{{ qterm.language }}: {{ qterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ qterm.definition }}</p>
+  {% if qterm.example %}
+    <p><strong>Example:</strong> {{ qterm.example }}</p>
+  {% endif %}
+  {% if qterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if qterm.resources.mwdef %}
+      - <a href="{{ qterm.mwdef }}">{{ qterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if qterm.resources.sepdef %}
+      - <a href="{{ qterm.sepdef }}">{{ qterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if qterm.resources.iepdef %}
+      - <a href="{{ qterm.iepdef }}">{{ qterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="r"><h2>R</h2></a>
+
+{% for rterm in site.data.rterms %}
+<div class="post">
+  <h4>{{ rterm.term }}</h4>
+  {% if rterm.language %}
+    <p class="by-line"><em>{{ rterm.language }}: {{ rterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ rterm.definition }}</p>
+  {% if rterm.example %}
+    <p><strong>Example:</strong> {{ rterm.example }}</p>
+  {% endif %}
+  {% if rterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if rterm.resources.mwdef %}
+      - <a href="{{ rterm.mwdef }}">{{ rterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if rterm.resources.sepdef %}
+      - <a href="{{ rterm.sepdef }}">{{ rterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if rterm.resources.iepdef %}
+      - <a href="{{ rterm.iepdef }}">{{ rterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="s"><h2>S</h2></a>
+
+{% for sterm in site.data.sterms %}
+<div class="post">
+  <h4>{{ sterm.term }}</h4>
+  {% if sterm.language %}
+    <p class="by-line"><em>{{ sterm.language }}: {{ sterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ sterm.definition }}</p>
+  {% if sterm.example %}
+    <p><strong>Example:</strong> {{ sterm.example }}</p>
+  {% endif %}
+  {% if sterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if sterm.resources.mwdef %}
+      - <a href="{{ sterm.mwdef }}">{{ sterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if sterm.resources.sepdef %}
+      - <a href="{{ sterm.sepdef }}">{{ sterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if sterm.resources.iepdef %}
+      - <a href="{{ sterm.iepdef }}">{{ sterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="t"><h2>T</h2></a>
+
+{% for tterm in site.data.tterms %}
+<div class="post">
+  <h4>{{ tterm.term }}</h4>
+  {% if tterm.language %}
+    <p class="by-line"><em>{{ tterm.language }}: {{ tterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ tterm.definition }}</p>
+  {% if tterm.example %}
+    <p><strong>Example:</strong> {{ tterm.example }}</p>
+  {% endif %}
+  {% if tterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if tterm.resources.mwdef %}
+      - <a href="{{ tterm.mwdef }}">{{ tterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if tterm.resources.sepdef %}
+      - <a href="{{ tterm.sepdef }}">{{ tterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if tterm.resources.iepdef %}
+      - <a href="{{ tterm.iepdef }}">{{ tterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="u"><h2>U</h2></a>
+
+{% for uterm in site.data.uterms %}
+<div class="post">
+  <h4>{{ uterm.term }}</h4>
+  {% if uterm.language %}
+    <p class="by-line"><em>{{ uterm.language }}: {{ uterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ uterm.definition }}</p>
+  {% if uterm.example %}
+    <p><strong>Example:</strong> {{ uterm.example }}</p>
+  {% endif %}
+  {% if uterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if uterm.resources.mwdef %}
+      - <a href="{{ uterm.mwdef }}">{{ uterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if uterm.resources.sepdef %}
+      - <a href="{{ uterm.sepdef }}">{{ uterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if uterm.resources.iepdef %}
+      - <a href="{{ uterm.iepdef }}">{{ uterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="v"><h2>V</h2></a>
+
+{% for vterm in site.data.vterms %}
+<div class="post">
+  <h4>{{ vterm.term }}</h4>
+  {% if vterm.language %}
+    <p class="by-line"><em>{{ vterm.language }}: {{ vterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ vterm.definition }}</p>
+  {% if vterm.example %}
+    <p><strong>Example:</strong> {{ vterm.example }}</p>
+  {% endif %}
+  {% if vterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if vterm.resources.mwdef %}
+      - <a href="{{ vterm.mwdef }}">{{ vterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if vterm.resources.sepdef %}
+      - <a href="{{ vterm.sepdef }}">{{ vterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if vterm.resources.iepdef %}
+      - <a href="{{ vterm.iepdef }}">{{ vterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="w"><h2>W</h2></a>
+
+{% for wterm in site.data.wterms %}
+<div class="post">
+  <h4>{{ wterm.term }}</h4>
+  {% if wterm.language %}
+    <p class="by-line"><em>{{ wterm.language }}: {{ wterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ wterm.definition }}</p>
+  {% if wterm.example %}
+    <p><strong>Example:</strong> {{ wterm.example }}</p>
+  {% endif %}
+  {% if wterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if wterm.resources.mwdef %}
+      - <a href="{{ wterm.mwdef }}">{{ wterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if wterm.resources.sepdef %}
+      - <a href="{{ wterm.sepdef }}">{{ wterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if wterm.resources.iepdef %}
+      - <a href="{{ wterm.iepdef }}">{{ wterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="x"><h2>X</h2></a>
+
+{% for xterm in site.data.xterms %}
+<div class="post">
+  <h4>{{ xterm.term }}</h4>
+  {% if xterm.language %}
+    <p class="by-line"><em>{{ xterm.language }}: {{ xterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ xterm.definition }}</p>
+  {% if xterm.example %}
+    <p><strong>Example:</strong> {{ xterm.example }}</p>
+  {% endif %}
+  {% if xterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if xterm.resources.mwdef %}
+      - <a href="{{ xterm.mwdef }}">{{ xterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if xterm.resources.sepdef %}
+      - <a href="{{ xterm.sepdef }}">{{ xterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if xterm.resources.iepdef %}
+      - <a href="{{ xterm.iepdef }}">{{ xterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="y"><h2>Y</h2></a>
+
+{% for yterm in site.data.yterms %}
+<div class="post">
+  <h4>{{ yterm.term }}</h4>
+  {% if yterm.language %}
+    <p class="by-line"><em>{{ yterm.language }}: {{ yterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ yterm.definition }}</p>
+  {% if yterm.example %}
+    <p><strong>Example:</strong> {{ yterm.example }}</p>
+  {% endif %}
+  {% if yterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if yterm.resources.mwdef %}
+      - <a href="{{ yterm.mwdef }}">{{ yterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if yterm.resources.sepdef %}
+      - <a href="{{ yterm.sepdef }}">{{ yterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if yterm.resources.iepdef %}
+      - <a href="{{ yterm.iepdef }}">{{ yterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<a id="z"><h2>Z</h2></a>
+
+{% for zterm in site.data.zterms %}
+<div class="post">
+  <h4>{{ zterm.term }}</h4>
+  {% if zterm.language %}
+    <p class="by-line"><em>{{ zterm.language }}: {{ zterm.translation }}</em></p>
+  {% endif %}
+  <p>{{ zterm.definition }}</p>
+  {% if zterm.example %}
+    <p><strong>Example:</strong> {{ zterm.example }}</p>
+  {% endif %}
+  {% if zterm.resources %}
+    <p><strong>Resources:</strong><br />
+    {% if zterm.resources.mwdef %}
+      - <a href="{{ zterm.mwdef }}">{{ zterm.term }}</a>  at <a href="https://www.merriam-webster.com/">Merriam-Webster Online Dictionary</a><br />
+    {% endif %}
+    {% if zterm.resources.sepdef %}
+      - <a href="{{ zterm.sepdef }}">{{ zterm.term }}</a>  at <a href="https://plato.stanford.edu/">Stanford Encyclopedia of Philosophy</a><br />
+    {% endif %}
+    {% if zterm.resources.iepdef %}
+      - <a href="{{ zterm.iepdef }}">{{ aterm.term }}</a>  at <a href="https://www.iep.utm.edu/">Internet Encyclopedia of Philosophy</a><br />
+    {% endif %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}

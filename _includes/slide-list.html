@@ -1,0 +1,7 @@
+<ul>
+{% for slide in site.data.slides %}
+  <li>
+    <a href="{{ slide.url }}">{{ slide.title }}</a>
+  </li>
+{% endfor %}
+</ul>

@@ -1,18 +1,16 @@
 <nav {% if site.reverse == true %}id="nav-left"{% else %}id="nav"{% endif %}>
 	<div id="nav-list">
 
-		{% if site.navigation %}			
-			{% for link in site.navigation %}
-	      {% if link.url contains 'http' %}
-	        {% assign domain = '' %}
-	      {% elsif link.url contains 'mailto' %}
-	        {% assign domain = '' %}
-	      {% else %}
-	        {% assign domain = site.url | append: site.baseurl %}
-	      {% endif %}
-	      <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title | capitalize }}</a>
-	    {% endfor %}
-		{% endif %}
+		{% for navlink in site.data.navlinks %}
+			{% if link.url contains 'http' %}
+        {% assign domain = '' %}
+      {% elsif link.url contains 'mailto' %}
+        {% assign domain = '' %}
+      {% else %}
+        {% assign domain = site.url | append: site.baseurl %}
+      {% endif %}
+      <a href="{{ domain }}{{ navlink.url }}" {% if navlink.url contains 'http' %}target="_blank"{% endif %}>{{ navlink.title }}</a>
+		{% endfor %}
 
 	</div>
   

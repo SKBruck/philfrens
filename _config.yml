@@ -54,18 +54,3 @@ exclude:
 # Socials
 twitter_username: 
 github_username:
-
-# Nav menu
-navigation:
-
-  - title: Home
-    url: /
-
-  - title: About
-    url: /about/
-
-  - title: Course Materials
-    url: /course-materials/
-
-  - title: License
-    url: /license/
