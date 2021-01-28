@@ -1,14 +1,8 @@
 - title: Home
   url: /
 
-- title: Glossary of Terms
-  url: /glossary/
+- title: Class Slides
+  url: /slides/
 
-- title: Course Materials
-  url: /course-materials/
-
-- title: About
-  url: /about/
-  
-- title: License
-  url: /license/
+- title: Licenses
+  url: /licenses/
